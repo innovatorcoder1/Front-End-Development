@@ -1,9 +1,6 @@
 // Conditional Statement
 
-let num = 1;
+let age = 25;
 
-if (num % 2 === 0){
-    console.log(num, " Even");
-} else{
-    console.log(num, "Odd");
-}
+let result = age >= 18 ? "Adult" : "Not adult";
+console.log(result)
