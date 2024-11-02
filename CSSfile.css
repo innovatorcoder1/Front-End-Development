@@ -3,8 +3,12 @@
     
 }
 p{
+    border: 5px solid black;
     text-transform: capitalize;
     font-weight: bold;
     font-variant: small-caps;
-    cursor: progress;
+    top: 0;
+    right: 0;
+    position: sticky;
+
 }
