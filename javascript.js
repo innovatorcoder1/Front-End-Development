@@ -1,6 +1,11 @@
-const student = {
-    fullName: "Ibrahim",
-    age: 26,
-    cgpa: 2.33,
-    isPass: true
-};
+let a = 5
+let b = 10
+
+console.log("a = ",a," & b = ",b);
+console.log("a + b", a + b);
+console.log("a - b", a - b);
+console.log("a * b", a * b);
+console.log("a / b", a / b);
+console.log("a ** b", a ** b);
+console.log("++a", ++a);
+console.log("--a", --a);
