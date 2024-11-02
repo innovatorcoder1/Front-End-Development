@@ -1,12 +1,9 @@
 // Conditional Statement
 
-let mode = "dark";
-let color;
+let num = 1;
 
-if (mode === "dark"){
-    color = "Black";
+if (num % 2 === 0){
+    console.log(num, " Even");
 } else{
-    color = " White";
+    console.log(num, "Odd");
 }
-
-console.log(color)
