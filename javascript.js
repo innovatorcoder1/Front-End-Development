@@ -1,11 +1,7 @@
 let a = 5
 let b = 10
 
-console.log("a = ",a," & b = ",b);
-console.log("a + b", a + b);
-console.log("a - b", a - b);
-console.log("a * b", a * b);
-console.log("a / b", a / b);
-console.log("a ** b", a ** b);
-console.log("++a", ++a);
-console.log("--a", --a);
+// comparison operators
+console.log("a && b", a === 5 && b > 0);
+console.log("a || b", a > 0 || b == 10);
+console.log("a is not equal to 0", a != 0)
